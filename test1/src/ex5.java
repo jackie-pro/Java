@@ -1,4 +1,4 @@
-class A{
+class Aa{
 	String Name = "A大樓設計圖";
 	int Size = 30;
 	String Price = "300萬";
@@ -10,7 +10,7 @@ public class ex5 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-	   A A1 = new A();
+	   Aa A1 = new Aa();
 	   A1.Name = "A1大樓";
 	   A1.Price = "350萬";
 	   System.out.println("Name:"+ A1.Name);
@@ -20,7 +20,7 @@ public class ex5 {
 	   
 	   System.out.println();
 	   
-	   A A2 = new A();
+	   Aa A2 = new Aa();
        A2.Name = "A2大樓";
 	   A2.Quantity = 30;
 	   System.out.println("Name:"+ A2.Name);
