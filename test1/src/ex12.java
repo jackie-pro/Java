@@ -1,5 +1,4 @@
 class father1{
-    year = y;
     
 	public void birthday(int y, int m, int d) {
 	System.out.println("父親的生日 : "+y+" 年 "+m+ " 月 "+d+" 日");
